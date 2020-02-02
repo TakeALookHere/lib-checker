@@ -1,0 +1,8 @@
+rootProject.name = 'lib-checker'
+include 'lib-checker-domain'
+include 'lib-checker-persistence-api'
+include 'lib-checker-persistence-memory'
+include 'lib-checker-service-api'
+include 'lib-checker-service-impl'
+include 'lib-checker-web'
+

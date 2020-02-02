@@ -1,0 +1,15 @@
+.idea
+.gradle
+gradle
+gradlew*
+.iml
+out
+
+# Project exclude paths
+/build/
+/lib-checker-domain/build/
+/lib-checker-domain/build/classes/java/main/
+/lib-checker-persistence-api/build/
+/lib-checker-persistence-api/build/classes/java/main/
+/lib-checker-service-api/build/
+/lib-checker-service-api/build/classes/java/main/
