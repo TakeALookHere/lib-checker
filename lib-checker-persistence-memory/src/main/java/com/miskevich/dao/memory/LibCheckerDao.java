@@ -11,6 +11,6 @@ public class LibCheckerDao implements ILibCheckerDao {
 
     public LibStatistic getLibStatistic() {
         //log.info("Dao layer");
-        return new LibStatistic();
+        return new LibStatistic(1, "name");
     }
 }

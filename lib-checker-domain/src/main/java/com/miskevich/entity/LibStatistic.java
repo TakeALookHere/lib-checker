@@ -11,6 +11,11 @@ public class LibStatistic {
     private int id;
     private String name;
 
+    public LibStatistic(int id, String name) {
+        this.id = id;
+        this.name = name;
+    }
+
     public void setId(int id) {
         this.id = id;
     }

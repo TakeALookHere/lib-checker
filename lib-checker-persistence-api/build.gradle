@@ -23,7 +23,10 @@ jar {
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter'
     implementation project(':lib-checker-domain')
-    compile project(path: ':lib-checker-domain', configuration: 'compile')
+    compile project(':lib-checker-domain')
+//    compile ('com.miskevich:lib-checker-domain:0.0.1-SNAPSHOT'){
+//        transitive=true
+//    }
     testImplementation('org.springframework.boot:spring-boot-starter-test') {
         exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
     }

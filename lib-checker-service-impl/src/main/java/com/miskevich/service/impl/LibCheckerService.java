@@ -17,6 +17,6 @@ public class LibCheckerService implements ILibCheckerService {
     public LibStatistic getLibStatistic() {
         //log.info("Service layer");
         libCheckerDao.getLibStatistic();
-        return new LibStatistic();
+        return new LibStatistic(1, "name");
     }
 }

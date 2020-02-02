@@ -24,8 +24,10 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation project(':lib-checker-service-api')
     implementation project(':lib-checker-service-impl')
-    compile project(path: ':lib-checker-service-api', configuration: 'compile')
-    compile project(path: ':lib-checker-service-impl', configuration: 'compile')
+    compile project(':lib-checker-service-api')
+    compile project(':lib-checker-service-impl')
+    //compile project(path: ':lib-checker-service-api', configuration: 'compile')
+    //compile project(path: ':lib-checker-service-impl', configuration: 'compile')
     testImplementation('org.springframework.boot:spring-boot-starter-test') {
         exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
     }

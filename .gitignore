@@ -11,5 +11,8 @@ out
 /lib-checker-domain/build/classes/java/main/
 /lib-checker-persistence-api/build/
 /lib-checker-persistence-api/build/classes/java/main/
+lib-checker-persistence-memory/build/
 /lib-checker-service-api/build/
 /lib-checker-service-api/build/classes/java/main/
+lib-checker-service-impl/build/
+lib-checker-web/build/

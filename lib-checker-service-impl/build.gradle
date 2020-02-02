@@ -26,6 +26,10 @@ dependencies {
     implementation project(':lib-checker-persistence-api')
     implementation project(':lib-checker-persistence-memory')
     implementation project(':lib-checker-domain')
+    compile project(':lib-checker-service-api')
+    compile project(':lib-checker-persistence-api')
+    compile project(':lib-checker-persistence-memory')
+    compile project(':lib-checker-domain')
     testImplementation('org.springframework.boot:spring-boot-starter-test') {
         exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
     }
